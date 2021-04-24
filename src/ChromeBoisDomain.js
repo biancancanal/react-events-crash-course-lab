@@ -28,8 +28,6 @@ export default class ChromeBoisDomain extends Component {
    */
   
  handlePressKey = (keyPress) => {
-  console.log("event: " + JSON.stringify(keyPress))
-  console.log("key: " + keyPress.key)
   if (keyPress.key === "a") {
     resize("+")
   }
